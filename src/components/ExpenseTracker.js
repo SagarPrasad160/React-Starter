@@ -1,7 +1,13 @@
+import "./ExpenseItem.css";
+
 function Expense() {
   return (
-    <div>
-      <p>Expense Items Food Rs 10 Petrol Rs 100 Movies Rs 200</p>
+    <div className="expense-item">
+      <div>March 28th 2021</div>
+      <div className="expense-item__description">
+        <h2>Car Insurance</h2>
+        <div className="expense-item__price">$294.67</div>
+      </div>
     </div>
   );
 }
