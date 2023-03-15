@@ -1,0 +1,35 @@
+[33mcommit e2591da40b94667b1c67ab74ee81a60824bda721[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: SagarPrasad160 <sagarprasad916@gmail.com>
+Date:   Wed Mar 15 12:21:50 2023 +0530
+
+    add delete button
+
+[33mcommit 14b97d1d1756d31b61548e62264ebba873ae603e[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: SagarPrasad160 <sagarprasad916@gmail.com>
+Date:   Sat Mar 11 22:12:40 2023 +0530
+
+    update files
+
+[33mcommit 774353cfb239b8cab92c6981687a8993fd271afc[m
+Author: SagarPrasad160 <sagarprasad916@gmail.com>
+Date:   Sat Mar 11 18:22:21 2023 +0530
+
+    add details and date components
+
+[33mcommit 9707380ace46ffd14d273d440f553fa753df07b6[m
+Author: SagarPrasad160 <sagarprasad916@gmail.com>
+Date:   Sat Mar 11 17:20:45 2023 +0530
+
+    passed data via props
+
+[33mcommit c020fdd63ad085e8abb77e14480aa06f2c709794[m
+Author: SagarPrasad160 <sagarprasad916@gmail.com>
+Date:   Sat Mar 11 14:54:04 2023 +0530
+
+    add basic styles
+
+[33mcommit e5279e59214451e7f90749820b2582c2dbf91f14[m
+Author: SagarPrasad160 <sagarprasad916@gmail.com>
+Date:   Sat Mar 11 13:50:39 2023 +0530
+
+    initial commit
