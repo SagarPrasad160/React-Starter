@@ -8,7 +8,7 @@ function Expense(props) {
   const [amount, setAmount] = useState(props.amount);
   function handleChange() {
     const newAmount = prompt("enter new amount");
-    setAmount(newAmount);
+    if (!isNaN(newAmount)) setAmount(newAmount);
   }
   return (
     <Card className="expense-item">
