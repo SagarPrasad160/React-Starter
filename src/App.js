@@ -1,10 +1,7 @@
 import Expenses from "./components/Expenses/Expenses";
 import NewExpense from "./components/NewExpenses/NewExpense";
+import { useState } from "react";
 function App() {
-  const addExpense = (newExpense) => {
-    console.log("In APP");
-    console.log(newExpense);
-  };
   const expenses = [
     {
       id: "e1",
@@ -36,10 +33,18 @@ function App() {
     },
   ];
 
+  const [allExpense, setAllExpense] = useState(expenses);
+
+  const addExpense = (newExpense) => {
+    console.log("In APP");
+    console.log(newExpense);
+    setAllExpense((prev) => [...prev, newExpense]);
+  };
+
   return (
     <div>
       <NewExpense addExpense={addExpense} />
-      <Expenses items={expenses} />
+      <Expenses items={allExpense} />
     </div>
   );
 }
