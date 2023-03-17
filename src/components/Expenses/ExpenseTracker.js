@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./ExpenseItem.css";
 import Card from "../UI/Card";
 import ExpenseDate from "./ExpenseDate";
-import ExpenseDetails from "./ExpenseDetails";
+//import ExpenseDetails from "./ExpenseDetails";
 
 function Expense(props) {
   const [amount, setAmount] = useState(props.amount);
