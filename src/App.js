@@ -35,15 +35,28 @@ function App() {
 
   const [allExpense, setAllExpense] = useState(expenses);
 
+  const [showForm, setShowForm] = useState(false);
+
   const addExpense = (newExpense) => {
     console.log("In APP");
     console.log(newExpense);
     setAllExpense((prev) => [...prev, newExpense]);
+    setShowForm((prev) => !prev);
   };
+
+  const addNewExpense = (
+    <button
+      onClick={() => {
+        setShowForm((prev) => !prev);
+      }}
+    >
+      Add New Expense
+    </button>
+  );
 
   return (
     <div>
-      <NewExpense addExpense={addExpense} />
+      {showForm ? <NewExpense addExpense={addExpense} /> : addNewExpense}
       <Expenses items={allExpense} />
     </div>
   );
